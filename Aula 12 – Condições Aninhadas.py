@@ -20,6 +20,46 @@ elif carro direita:
    carro.siga()
 slse carro.siga():
    carro.siga()
+
+Python 3 : Condições
+JANEIRO 27, 2018 PYTHONHOJEDEIXE UM COMENTÁRIO
+Condição Simples
+if algumacoisa():
+
+Condição Composta
+if algumacoisa():
+
+else:
+
+Exemplo:
+
+tempo = int(input('Quantos anos seu carro tem? '))
+if tempo <= 3:
+    print('Carro novo')
+else:
+    print('Carro velho')
+    
+Condição Simplificada
+tempo = int(input('Quantos anos seu carro tem? '))
+print('Carro novo' if tempo <=3 else 'carro velho')
+print('FIM')
+
+Condições aninhadas
+São estruturas condicionais dentro de estruturas condicionais.
+
+if algumacoisa():
+
+   bloco1
+
+elif algumacoisa():
+
+   bloco2
+
+else:
+
+   bloco3
+
+Você pode usar vários elif dentro de uma estrutura.
    
 """)
 #
@@ -65,6 +105,3 @@ elif nome in"Ana Claudia Regina Luiza":
 else:
    print("Seu nome é bem normal") 
 print("tenha um bom dia ".format(nome))
-
- 
-    
