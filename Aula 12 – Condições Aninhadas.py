@@ -24,16 +24,47 @@ slse carro.siga():
 """)
 #
 # Na Pratica
-#
+#Estrutura Condicional Simples
 nome = str(input("Qual é o seu nome?"))
-if nome == Dio :
-   print("Bonito nome")
-elif == "Pedro" or == "Joao" or == 'Maris':
-   print("São nomes bem comum no Brasil") 
+if nome == "Dio":
+   print("Bonito nome")   
 else:
    print("Seu nome é bem normal") 
-print("tenha um bom dia ").format(nome))
+print("tenha um bom dia ".format(nome))
 
+#
+# Estrutura condicional aninhadas 
+#
+nome = str(input("Qual é o seu nome?"))
+if nome == "Dio" :
+   print("Bonito nome")
+   
+elif nome == "Pedro" or nome == "Joao" or nome == 'Maris':
+   print("São nomes bem comum no Brasil")
+   
+else:
+   print("Seu nome é bem normal") 
+print("tenha um bom dia ".format(nome))
+
+#
+#Etrutura condicional Aninhada 
+#
+
+# Na Pratica
+#
+nome = str(input("Qual é o seu nome?"))
+if nome == "Dio" :
+   print("Bonito nome")
+   
+elif nome == "Pedro" or nome == "Joao" or nome == 'Maris':
+   print("São nomes bem comum no Brasil")
+   
+elif nome in"Ana Claudia Regina Luiza":
+   print("belo nome feminino") 
+
+else:
+   print("Seu nome é bem normal") 
+print("tenha um bom dia ".format(nome))
 
  
     
