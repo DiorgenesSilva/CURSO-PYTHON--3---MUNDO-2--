@@ -1,0 +1,105 @@
+print("LAÇO DE RETIÇÃO FOR "
+
+print("""
+LAÇOS,REPETIÇÕES E  ITERAÇÕES    
+UTILIZANDO O LAÇO FOR
+Laço com Variavel  de Controle 
+
+EXEMPLO DE UMA ESTRUTURA COM VARIÁVEL DE CONTROLE 
+ laço c no intervalo(1.10):
+   passo
+ pega 
+
+ for c in range (0 , 10):
+     passo 
+   pega   
+
+for c in range (0 , 30):
+    passo 
+    PULA
+PASSO 
+
+laço c no intervalo (1,10) :
+  se tivermoeda
+    pega 
+  passo 
+  pula 
+passo 
+pega 
+
+for c in range( 0 , 3):
+    if tivermoeda:
+       pega 
+    passo
+    pula 
+  passo 
+  pega 
+ fim 
+
+ """)
+#
+#Exemplos abaixo de laços de  repetição ou Iteração 
+#
+print("Escreva Oi 6x") 
+print("oi")
+print("OI") 
+print("oi")
+print("oi")
+print("oi") 
+print("oi") 
+#
+#utlizando laço de repetição for abaixo 
+#fazendo uma contagem no range de 0 ate 5 
+print("""
+Utlizando laço de repetição for abaixo 
+ fazendo uma contagem no range de 0 ate 5 """)
+for c in range (0 , 6):
+  print(c)
+#
+##utlizando laço de repetição for0 abaixo 
+#fazendo uma contagem no range de 6 ate  
+print("""
+##utlizando laço de repetição for0 abaixo 
+#fazendo uma contagem no range de 6 ate """)
+for c in range (6 , 0,-1):
+  print(c)
+print("***FIM***")
+#
+#utlizando laço de repetição for abaixo 
+#fazendo uma contagem no range de 0 ate 5
+#pulando de 2 em 2 
+print("""
+utlizando laço de repetição for abaixo 
+#fazendo uma contagem no range de 0 ate 5
+#pulando de 2 em 2 """)
+for c in range (0 , 7, 2):
+  print(c)
+print("***FIM***")
+#
+#utlizando laço de repetição for abaixo 
+#fazendo uma contagem no range
+#utilizando variaveis como meio de passagem para o for 
+
+print("""utlizando laço de repetição for abaixo 
+#fazendo uma contagem no range
+#utilizando variaveis como meio de passagem para o for """)
+i = int(input("INICIO"))
+f = int(input(" FIM"))
+p = int(input("PASSO"))
+for c in range ( i,f+1,p):
+  print(c)
+print("FIM")
+#
+for c in range (0 , 3 ):
+  n = int(input("Digite um valor"))
+print("**FIM**")
+#
+s = 0
+for c in range (0 , 4):
+  n = int(input("Digite um valor"))
+  s += n
+print("O somatorio foi {} ".format(s))   
+print("FIM")
+#
+
+  
